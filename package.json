@@ -33,5 +33,6 @@
   "bugs": {
     "url": "https://github.com/pluralsight-projects/javascript-oo-shopping-game/issues"
   },
-  "homepage": "https://github.com/pluralsight-projects/javascript-oo-shopping-game#readme"
+  "homepage": "https://github.com/pluralsight-projects/javascript-oo-shopping-game#readme",
+  "devDependencies": {}
 }
