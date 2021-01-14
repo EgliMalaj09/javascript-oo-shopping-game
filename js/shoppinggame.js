@@ -77,7 +77,7 @@ const loadProducts = (map, prodId) => {
     try {
         // Call Object.keys() to load the property names of the Product object in to prodKeys array here
         let prodKeys = [];
-
+        prodKeys = Object.keys(Product());
         let iterator_obj = map.entries();
 
         if (prodKeys.length > 0) {
@@ -87,7 +87,6 @@ const loadProducts = (map, prodId) => {
 
                 // Create and assign an instance of Product to prodObj here
                 let prodObj;
-                prodObj = Object.keys(Product);
                 if (prodObj != undefined && prodObj != null) {
                     for (let i = 0; i < prodKeys.length; i++) {
                         let property = prodKeys[i];
