@@ -8,17 +8,19 @@ const player = {
     name: name,
     score: score,
     items: items,
-    getcurrentScore: function(){
+    getcurrentScore(){
         return this.score
     },
-    addPoints: function(points){
+    addPoints(points){
         this.score += points;
     },
-    deductPoints: function(points){
+    deductPoints(points){
         this.score -= points
     }
 };
 // Define the Product class - write the Constructor function for Product class here
+const 
+
 
 // Complete the dateDiff function
 const dateDiff = (date1, date2) => {};
