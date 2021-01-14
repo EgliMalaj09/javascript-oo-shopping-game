@@ -87,7 +87,7 @@ const loadProducts = (map, prodId) => {
 
                 // Create and assign an instance of Product to prodObj here
                 let prodObj;
-
+                prodObj = Object.keys(Product);
                 if (prodObj != undefined && prodObj != null) {
                     for (let i = 0; i < prodKeys.length; i++) {
                         let property = prodKeys[i];
