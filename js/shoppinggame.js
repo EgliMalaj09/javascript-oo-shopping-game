@@ -211,7 +211,16 @@ function loadMasterData() {
 }
 
 // Complete this function
-const findProductById = (id) => {};
+const findProductById = (id) => {
+    return (function(Product){
+        if(Product.id === id){
+            return true;
+        }else{
+            return false;
+        }
+
+    })();
+}
 
 // Complete this function
 const generateProductId = () => {};
