@@ -219,7 +219,7 @@ const findProductById = (id) => {
             return false;
         }
     }
-}
+};
 
 // Complete this function
 const generateProductId = () => {};
