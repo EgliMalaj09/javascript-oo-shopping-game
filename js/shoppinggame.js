@@ -127,7 +127,7 @@ const loadMagicProducts = (map, prodId) => {
 
                 // Create and assign an instance of MagicProduct to prodObj here
                 let magProdObj;
-                let magProdObj = new MagicProduct();
+                magProdObj = new MagicProduct();
                 if (magProdObj != undefined && magProdObj != null) {
                     for (let i = 0; i < magProdKeys.length; i++) {
                         let property = magProdKeys[i];
@@ -214,7 +214,7 @@ const findProductById = (id) => {
 };
 // Complete this function
 const generateProductId = () => {
-    return Math.floor(Math.random() * 20 + 1);
+    return Math.floor(Math.random() * 20) + 1;
 };
 
 
